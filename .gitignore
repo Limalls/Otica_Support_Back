@@ -1,55 +1,8 @@
-# Python
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-
-# Ambientes virtuais
+*.pyc
+.env
 .venv/
 venv/
-env/
-ENV/
-
-# Variáveis de ambiente (nunca versionar segredos)
-.env
-.env.*
-!.env.example
-
-# Distribuição / build
-build/
-dist/
-*.egg-info/
-.eggs/
-pip-wheel-metadata/
-
-# Testes e cobertura
 .pytest_cache/
-.coverage
-.coverage.*
-htmlcov/
-.tox/
-.mypy_cache/
-.ruff_cache/
-
-# Banco de dados local
-*.sqlite3
-*.db
-
-# Migrações geradas localmente (mantenha as de alembic/versions versionadas)
-# alembic.ini local, se usar credenciais, deve ficar fora do git
-
-# Uploads e arquivos temporários
-uploads/
-media/
-*.log
-tmp/
-
-# Docker
-docker-compose.override.yml
-
-# IDEs e sistema operacional
-.vscode/
 .idea/
-*.swp
-.DS_Store
-Thumbs.db
+.vscode/
